@@ -1,66 +1,38 @@
-# #90DaysOfDevOps Challenge
+# 🚀 90 Days DevOps Challenge (2025) - Progress Tracker  
 
-## Learn, Upskill, Grow with the Community
+## 📌 About  
+This repository tracks my progress through the **90 Days DevOps Challenge (2025)** by [Shubham Londhe](https://github.com/shubhamlondhe). The goal is to build a strong foundation in DevOps, covering topics like Linux, Git, Docker, Kubernetes, CI/CD, and more!  
 
-Join our DevOps community challenge and embark on a 90-day journey to become a better DevOps practitioner. This repository serves as an open invitation to all DevOps enthusiasts who are looking to enhance their skills and knowledge. By participating in this challenge, you will have the opportunity to learn from others in the community, collaborate with like-minded individuals, and ultimately strengthen your DevOps abilities.
+## 🏆 Challenge Progress  
 
-Let's come together to grow and achieve new heights in DevOps!
+| Day  | Topic Covered | Notes/Key Learnings | Status |
+|------|--------------|----------------------|--------|
+| week 1  | Git & GitHub Setup | Learned how to set up Git, configure SSH keys, and push changes to GitHub. | ✅ Completed |
+| week 2  | Linux Basics | Explored basic Linux commands, file structure, and permissions. | ✅ Completed |
+| week 3  | Shell Scripting | Wrote simple shell scripts to automate tasks. | ✅ Completed |
+| week 4  | ... | ... | ⏳ In Progress |
 
-📖 **Discover More in Our Detailed Table of Contents!** Explore the richness of our content and find what you're looking for efficiently. Check out our [TOC here](./TOC.md).
+_(Update daily as you progress!)_
 
-## Steps:
+## 🔧 Tech Stack Covered  
+- 🐧 Linux  
+- 🏗️ Git & GitHub  
+- 🐳 Docker  
+- ☸️ Kubernetes  
+- 🚀 CI/CD (Jenkins, GitHub Actions)  
+- ☁️ Cloud (AWS, Azure, GCP) 
 
-- Fork[https://github.com/LondheShubham153/90DaysOfDevOps/fork] the Repo.
-- Learn Everyday and add your learnings in the day wise folders.
-- Check out what others are Learning and help/learn from them.
-- Showcase your learnings on LinkedIn
-
-## These are our community Links
-  <a href="https://discord.com/channels/824622549182185493/824622550327623692">
-    <img width="30px" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" />
-  </a>&ensp;
-    <a href="https://t.me/trainwithshubham">
-    <img width="30px" src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" />
-  </a> 
-  </a>&ensp;
-
-  <a href="https://www.linkedin.com/in/shubhamlondhe1996/">
-    <img width="30px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" />
-  </a>&ensp;
-
- <a href="https://www.youtube.com/@TrainWithShubham">
-  <img width="30px" src="https://i.pinimg.com/originals/46/02/cb/4602cbc18967da9c1eba7452905cd99b.png" />
-  </a>&ensp;
-
-  <a href="https://chat.whatsapp.com/FvRlAAZVxUhCUSZ0Y1s7KY">
-  <img width="30px" src="https://www.vectorlogo.zone/logos/whatsapp/whatsapp-icon.svg" />
-</a>&ensp;
+## 🎯 Goals  
+✔️ Develop a strong understanding of DevOps fundamentals 
+✔️ Gain hands-on experience with DevOps tools 
+✔️ Work on real-world DevOps projects  
 
 
-<a href="https://www.trainwithshubham.com/">
-  <img width="30px" src="https://media.licdn.com/dms/image/C4D0BAQGokBZsFEUWHw/company-logo_200_200/0/1677354328695?e=1700092800&v=beta&t=3bw7W2tQEpn023Slj_PacUZflE-OyYpBU-9juiJNJVY" />
-</a>&ensp;
+## 📌 Useful Resources  
+- [90 Days DevOps Challenge (2025)](https://github.com/shubhamlondhe/devops) 
+- [DevOps Roadmap](https://roadmap.sh/devops) 
+- [Official Docker Docs](https://docs.docker.com/)
+- [Kubernetes Docs](https://kubernetes.io/docs/)
 
-## Events
-
-### YouTube Live Announcement:
-<a href="https://youtu.be/rO5Rllir-LM">
-  <img width="30px" src="https://i.pinimg.com/originals/46/02/cb/4602cbc18967da9c1eba7452905cd99b.png" />
-  </a>&ensp;
-
-### YouTube Playlist for DevOps:
-<a href="https://youtube.com/playlist?list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u
-">
-  <img width="30px" src="https://i.pinimg.com/originals/46/02/cb/4602cbc18967da9c1eba7452905cd99b.png" />
-  </a>&ensp;
-
-### DevOps Course:
-<a href="https://bit.ly/devops-batch-7">
-  <img width="30px" src="https://media.licdn.com/dms/image/C4D0BAQGokBZsFEUWHw/company-logo_200_200/0/1677354328695?e=1700092800&v=beta&t=3bw7W2tQEpn023Slj_PacUZflE-OyYpBU-9juiJNJVY" />
-</a>&ensp;
-
-## Thanks to all contributors ❤
-
- <a href = "https://github.com/LondheShubham153/90DaysOfDevOps/graphs/contributors">
-   <img src = "https://contrib.rocks/image?repo=LondheShubham153/90DaysOfDevOps"/>
- </a>
+## 📢 Connect With Me  
+- LinkedIn: [Your LinkedIn](https://in.linkedin.com/in/chinmaybalichwal9460)
