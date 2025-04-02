@@ -1,0 +1,155 @@
+#!/bin/bash
+
+#some of the essential commands and information about Linux User, Group, and Permission Management -->
+
+#User Creation and Deletion --> 
+
+	#create a new user
+	sudo useradd username
+
+	#Creates user with home directory as this user will have personal space designated to the respected person
+	sudo useradd -m username
+
+	#set/change user password
+	sudo passwd username
+
+	#Delete a user (Keep home directory)
+	sudo userdel username
+
+	#Delete the user with Home Directory
+	sudo userdel -r username
+
+
+#User Information -->
+
+	#show user information
+	id username
+
+	#Show current user 
+	whoami
+
+	#List Logged in users
+	who
+
+	#Show detailed user information
+	finger username
+
+#Group Management
+	
+	#Creates a new group
+	sudo groupadd groupname
+	
+	#Deletes a group
+	sudo groupdel groupname
+	
+	#Add user to group
+	sudo usermod -aG groupname username
+	
+	#Remove user from group
+	sudo gpasswd -d username groupname
+	
+	#List all groups
+	getent group
+
+	#List groups a user belongs to
+	group username or id -nG username
+
+
+#File Permission
+ 	#View Permission
+	ls -l filename
+	
+	#Change permission (owner/group/others)
+	chmod u=rwx,g=rx,o=r filename
+
+	#--> Example -----) Numeric owner 
+	chmod 755 filename
+
+	#change owner
+	sudo chown username filenae
+
+	#change group
+	sudo chgrp groupname filename
+
+
+	#change both owner and group
+	sudo chown username:groupname filename
+
+	#Recursive permission change
+	sudo chmod -R 744 directory/
+	sudo chown -R username:groupname directory/
+
+#Special Permissions
+	#Set sticky bt (only owner can delete files in dir)	
+	chmod +t directory
+
+	#Set SUID (run as owner)
+	chmod u+s file
+
+	#Set SGID (run as group, new files inherit group)
+	chmod g+s directory
+
+#Advanced User Management
+
+	#Change user's primary group
+	sudo usermod -g groupname username
+	
+	#Change user's login name
+	sudo usermod -l newname oldname
+
+	#Change user's home directory
+	sudo usermod -d /new/home username
+
+	sudo usermod -L username #Lock
+
+	sudo usermod -U username #Unlock
+
+
+
+# Password Aging
+
+	#Set password expiration
+	sudo chage -M 90 username #Expire after 90 days
+	
+	sudo chage -d 0 username #Force password change on next login
+
+	#View passowrd aging info
+	sudo chage -l username
+
+
+
+
+#Important Files --> 
+# System COnfiguration Files
+#/etc/passwd   -   USer accounts
+#/etc/shadow -Encrypted passwords
+#/etc/groups - Groups definitions
+#/etc/gshadow - secure group data
+#/etc/sudoers - sudo permissions
+#/etc/login.defs - default user settings
+
+
+ #Viewing User Activity -->
+	#show last logins
+	last
+
+	#Show failed login attempts
+	lastb
+
+	#Show user login history
+	lastlog
+
+
+
+#Best Pratices -->
+#    Always use sudo for administrative commands
+
+#   Prefer usermod -aG instead of usermod -G to avoid removing user from other groups
+
+#    Use visudo to edit sudoers file (not direct editing)
+
+#    For shared directories, use groups rather than making files world-writable
+
+#    Regularly audit user permissions and group memberships
+
+#    Use umask to set default permissions for new files (common values: 022 or 002)	
