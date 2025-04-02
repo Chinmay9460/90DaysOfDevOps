@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql_container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Rishi@2001
+      MYSQL_DATABASE: taskdb
+      MYSQL_USER: CB
+      MYSQL_PASSWORD: Rishi@2001
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  app:
+    build: .
+    container_name: task_management_app
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/taskdb?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Rishi@2001
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+    ports:
+      - "9090:8090"
+
+volumes:
+  mysql_data:
